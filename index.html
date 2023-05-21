@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>New Tab</title>
+</head>
+
+<html>
+    <body>
+        <div id="background-image"></div>
+
+        <div id="main">
+            <div id="clock_links">
+                <div id="MyClockDisplay" class="clock hvr-grow-rotate" onload="showTime()"></div>
+                <script src="clock.js"></script>
+
+                <p id="greeting">Hello.</p>
+                <script src="greeting.js"></script>
+
+                <div id="links">
+                    <br><a href="https://nfoert.pythonanywhere.com/jadesite" class="hvr-grow link"><i class="fa fa-diamond"></i> Jade Software</a>
+                    <br><a href="https://google.com" class="hvr-grow link"><i class="fa fa-google"></i> Google</a>
+                    <br><a href="https://reddit.com" class="hvr-grow link"><i class="fa fa-reddit"></i> Reddit</a>
+                    <br><a href="https://mail.google.com/mail/u/0/#inbox" class="hvr-grow link"><i class="fa fa-envelope"></i> Gmail</a>
+                    <br><a href="https://docs.google.com/document/u/0/" class="hvr-grow link"><i class="fa fa-file"></i> Docs</a>
+                    <br><a href="https://codepen.io/" class="hvr-grow link"><i class="fa fa-pencil"></i> Code Pen</a>
+                </div>
+
+                <p id="nfoert">Made by <a href="https://github.com/nfoert/newtab" class="hvr-grow">nfoert</a></p>
+
+            </div>
+
+            
+
+            <div id="google">
+                <input type="text" id="google-enter" placeholder="Search Google">
+                <button type="button" id="google-search" class="hvr-grow"><i class="fa fa-google"></i></button>
+            </div>
+
+            <script src="randombg.js"></script>
+            <script src="search.js"></script>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "Jade New Tab",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage"],
+  "description": "Jade Software's new tab page",
+  "icons": {
+    "128": "icon.png"
+  }
+}
